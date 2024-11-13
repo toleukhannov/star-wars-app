@@ -1,24 +1,24 @@
 # Star Wars App
 
-Это приложение на React JS для тестового задания от SolvaTechnology.
+This is a React JS application for a test assignment from SolvaTechnology.
 
-## Функционал
+## Features
 
-- Авторизация пользователей
-- Просмотр персонажей из Star Wars
-- Редактирование характеристик персонажей
+- User authorization
+- View Star Wars characters
+- Edit character attributes
 
-## Стек технологий
+## Tech Stack
 
-- **React**: Фреймворк для создания пользовательского интерфейса
-- **Redux**: Управление состоянием приложения
-- **React Router**: Маршрутизация между страницами
-- **SWAPI (Star Wars API)**: Внешний API для данных Star Wars
-- **Axios**: Для выполнения HTTP-запросов к API
+- **React**: Framework for building the user interface
+- **Redux**: State management
+- **React Router**: Routing between pages
+- **SWAPI (Star Wars API)**: External API for Star Wars data
+- **Axios**: For making HTTP requests to the API
 
-## Установка и запуск проекта
+## Installation and Running
 
-### 1. Клонирование репозитория
+### 1. Cloning repo
 
 Сначала клонируйте репозиторий на ваш компьютер:
 
@@ -27,18 +27,18 @@ git clone https://github.com/toleukhannov/star-wars-app.git
 cd star-wars-app
 ```
 
-###2. Установка зависимостей
+###2. Install dependencies
 Убедитесь, что у вас установлены Node.js и npm. Установите все необходимые зависимости:
 
 ```bash
 npm install
 ```
 
-3. Запуск приложения
+3. Run App
 Для запуска приложения в режиме разработки используйте команду:
 
 ```bash
 npm start
 ```
-
+Open http://localhost:3000 on your browser, to see the app
 Откройте http://localhost:3000 в вашем браузере, чтобы увидеть приложение.
