@@ -27,16 +27,18 @@ const StarshipDetailPage = () => {
   return (
     <div>
       <Header/>
-      <div className='container'>
+      <div className='container' >
         <h1 className='page-title'>{starship.name}</h1>
-        <p><strong>Model:</strong> {starship.model}</p>
-        <p><strong>Manufacturer:</strong> {starship.manufacturer}</p>
-        <p><strong>Cost:</strong> {starship.cost_in_credits} credits</p>
-        <p><strong>Length:</strong> {starship.length} meters</p>
-        <p><strong>Max Speed:</strong> {starship.max_atmosphering_speed}</p>
-        <p><strong>Crew:</strong> {starship.crew}</p>
-        <p><strong>Passengers:</strong> {starship.passengers}</p>
-        <p><strong>Cargo Capacity:</strong> {starship.cargo_capacity}</p>
+        <div className='subject-info'>
+        <p className='subject-info__element'><strong>Model:</strong> {starship.model}</p>
+        <p className='subject-info__element'><strong>Manufacturer:</strong> {starship.manufacturer}</p>
+        <p className='subject-info__element'><strong>Cost:</strong> {starship.cost_in_credits} credits</p>
+        <p className='subject-info__element'><strong>Length:</strong> {starship.length} meters</p>
+        <p className='subject-info__element'><strong>Max Speed:</strong> {starship.max_atmosphering_speed}</p>
+        <p className='subject-info__element'><strong>Crew:</strong> {starship.crew}</p>
+        <p className='subject-info__element'><strong>Passengers:</strong> {starship.passengers}</p>
+        <p className='subject-info__element'><strong>Cargo Capacity:</strong> {starship.cargo_capacity}</p>
+        </div>
       </div>
     </div>
   );
