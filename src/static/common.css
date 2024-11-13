@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", serif;
+}
+.container{
+    margin: 0px auto;
+    max-width: 1256px;
+    padding: 0 30px;
+}
+body{
+    background-color: #171717;
+}
+.page-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 40px;
+}
+.ul-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.ul-list__element{
+    font-size: 24px;
+    font-weight: 500;
+    background-color: rgb(17, 26, 110);
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    text-align: center;   
+}
+
+.page-control button{
+    background-color: rgb(17, 26, 110);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.ul-list__element:hover, .page-control button:hover{
+    background-color: rgb(13, 20, 83);
+    border: solid 0.5px rgb(240, 255, 24);
+    transition: 0.2s;
+}
+
+.ul-list__element a{
+    color: white;
+    text-decoration: none;
+}
+
+.page-control{
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.subject-info{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.subject-info__element{
+    border-bottom: 1px white solid;
+    padding: 20px 0;
+}
+
+.edit__btn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+}
+.save__btn{
+    background-color: rgb(6, 187, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    width: 80px;
+}
+
+.editing__container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.editing__element{
+    padding: 20px 0;
+    border-bottom: 1px white solid;
+    color: white;
+    
+}
+@media (max-width: 1000px) {
+    
+}

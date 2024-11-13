@@ -1,0 +1,43 @@
+.main-page__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 20px;
+    margin-top: 60px;
+}
+
+.main-page__right h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 57px;
+}
+
+.main-page__right a{
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.main-page__right a:hover{
+    color: rgb(255, 228, 72);
+    transition: 0.2s;
+}
+.main-page__img{
+    width: 40%;
+}
+@media (max-width: 768px) {
+    .main-page__wrapper{
+        flex-direction: column;
+    }
+    .main-page__right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }

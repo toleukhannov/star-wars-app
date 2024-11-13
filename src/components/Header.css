@@ -1,0 +1,28 @@
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.header__wrapper p{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header__wrapper p a{
+    color: white;
+}
+
+.logout__btn{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.logout__btn:hover{
+    transition: 0.2s;
+    text-decoration: underline;
+}
