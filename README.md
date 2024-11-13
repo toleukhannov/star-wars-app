@@ -27,18 +27,20 @@ git clone https://github.com/toleukhannov/star-wars-app.git
 cd star-wars-app
 ```
 
-###2. Install dependencies
+### 2. Install dependencies
 Убедитесь, что у вас установлены Node.js и npm. Установите все необходимые зависимости:
 
 ```bash
 npm install
 ```
 
-3. Run App
+### 3. Run App
 Для запуска приложения в режиме разработки используйте команду:
 
 ```bash
 npm start
 ```
+
 Open http://localhost:3000 on your browser, to see the app
+
 Откройте http://localhost:3000 в вашем браузере, чтобы увидеть приложение.
